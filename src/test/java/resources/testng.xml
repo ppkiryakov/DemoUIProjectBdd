@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Order products shopping card Suite" verbose="2" parallel="classes" thread-count="2">
+    <test name="Successfully order products from shopping card">
+        <classes>
+            <class name="com.github.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
