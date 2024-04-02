@@ -1,4 +1,4 @@
-Feature: User can complete successfully order from Sauce Demo
+Feature: User can complete successfully order
 
 
   Background:

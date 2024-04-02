@@ -9,7 +9,6 @@ import static com.github.helpers.CardInformationHelper.getCardItemInformation;
 
 public class ProductsPage extends BasePage {
     private By productsList = By.className("inventory_list");
-    private By removeButtonList = By.xpath("//button[contains(text(), \"Remove\")]");
     private String specificProduct = "//div[text()='%s']/../../..";
     private String specificProductButton = specificProduct + "//button";
     private String removeProductButton = specificProductButton + "[text()='Remove']";

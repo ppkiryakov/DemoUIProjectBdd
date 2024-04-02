@@ -30,16 +30,12 @@ public class WebDriverManager {
 
     @Before
     public void setUp() {
-        System.out.println("I am in setup() method");
         WebDriverManager.getDriver();
-        System.out.println("I exit setup() method");
     }
 
     @After
     public void tearDown() {
-        System.out.println("I am in tearDown() method");
         ScenarioContext.clearContext();
         WebDriverManager.getDriver().quit();
-        System.out.println("I exit tearDown() method");
     }
 }
